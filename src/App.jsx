@@ -20,7 +20,7 @@ const App = () => {
       <div>
         <Navbar />
       </div>
-      <main className='grid grid-cols-4 gap-5 mt-6'>
+      <main className='grid grid-cols-4 gap-5 mt-6 px-12'>
         {data.map((dataObj) => (
           <Card key={dataObj._id} data={dataObj} />
         ))}
